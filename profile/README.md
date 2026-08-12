@@ -57,9 +57,24 @@ Most application repositories are **private** (product source). Public work live
 - **Private by default.** Product and ops repos stay private; publish only packages and docs intended for wider use.
 - **CI before merge.** Protected `main` branches expect green quality gates.
 
+### Discussions
+
+Org-wide conversation lives in **[Discussions](https://github.com/orgs/qabasone/discussions)** (source: [`qabasone/qabasone`](https://github.com/qabasone/qabasone)):
+
+| Category | Use |
+| --- | --- |
+| Announcements | Releases, breaking changes, roadmap |
+| Q&A | How-to and troubleshooting |
+| Ideas | Feature requests (may become Issues / milestones) |
+| General | Lightweight decisions / RFCs |
+| Show and tell | Demos and experiments |
+| Polls | Quick product votes |
+
+Bugs and accepted delivery work stay in **Issues**. Platform-binding architecture stays in Atlas ADRs.
+
 ### Contributing
 
-- **External contributors:** open an issue on a public repo (for example [`qabasone-ui`](https://github.com/qabasone/qabasone-ui)) describing the change. We are selective about outside PRs while the core platform remains private.
+- **External contributors:** start in [Discussions](https://github.com/orgs/qabasone/discussions) (Ideas / Q&A), or open an issue on a public repo (for example [`qabasone-ui`](https://github.com/qabasone/qabasone-ui)). We are selective about outside PRs while the core platform remains private.
 - **Internal / invited collaborators:** follow Atlas contribution governance and each repo’s `AGENTS.md` / `CODEOWNERS` where present.
 
 ---

@@ -1,0 +1,48 @@
+title: "[Decision] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use **General** for cross-cutting conversation and lightweight decision records.
+        For architecture that must bind the platform, prefer an ADR in Atlas (`qabasone-atlas`).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Thread type
+      options:
+        - Decision / RFC
+        - Open discussion
+        - Meta / process
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What decision or topic needs clarity?
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options considered
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision (or proposal)
+      description: What did we choose (or what are you proposing), and why?
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Follow-ups, risks, and what this does *not* change.
+    validations:
+      required: false

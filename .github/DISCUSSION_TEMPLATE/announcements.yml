@@ -1,0 +1,43 @@
+title: "[Announce] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Maintainer announcements for QabasOne / AlQabasyGo — releases, breaking changes, and roadmap notes.
+        Prefer linking related Issues, Releases, or milestones.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Announcement type
+      options:
+        - Release
+        - Breaking change
+        - Roadmap / planning
+        - Ops / status
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What changed, and who is affected?
+      placeholder: Operators on dash.qabas.one will see…
+    validations:
+      required: true
+  - type: textarea
+    id: action
+    attributes:
+      label: Action required
+      description: What should readers do (if anything)?
+      value: |
+        - [ ] No action required
+      placeholder: Upgrade clients, rotate tokens, read migration notes…
+    validations:
+      required: true
+  - type: input
+    id: links
+    attributes:
+      label: Related links
+      description: Release, PR, milestone, or docs URL (optional)
+      placeholder: https://github.com/qabasone/...

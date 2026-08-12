@@ -1,0 +1,52 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose product improvements for QabasOne / AlQabasyGo.
+        Strong ideas may be promoted to Issues and grouped into a release milestone.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Operations / transactions
+        - Logistics / AlQabasyGo
+        - Dashboard UX
+        - API / integrations
+        - Mobile
+        - Docs / DX
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who feels the pain, and what is broken or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change? Sketch the happy path.
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Expected impact
+      options:
+        - Critical — blocks daily operations
+        - High — frequent friction
+        - Medium — meaningful improvement
+        - Low — nice to have
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing Ideas and Issues for duplicates
+          required: true

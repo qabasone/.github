@@ -8,13 +8,27 @@ Thank you for your interest in QabasOne.
 
 This file is the organization default for repositories that do not ship their own `CONTRIBUTING.md`.
 
+## Discussions vs Issues
+
+Use **[organization Discussions](https://github.com/orgs/qabasone/discussions)** for conversation. Use **Issues** for committed work.
+
+| Need | Where |
+| --- | --- |
+| How-to / troubleshooting | [Q&A](https://github.com/orgs/qabasone/discussions/categories/q-a) |
+| Feature ideas | [Ideas](https://github.com/orgs/qabasone/discussions/categories/ideas) |
+| Releases / breaking changes | [Announcements](https://github.com/orgs/qabasone/discussions/categories/announcements) |
+| Decisions / RFCs (lightweight) | [General](https://github.com/orgs/qabasone/discussions/categories/general) |
+| Bugs / accepted work | Issue on the relevant repository |
+| Architecture that binds the platform | ADR in `qabasone-atlas` |
+
 ## External contributors
 
 Most application repositories are **private**. Public work is limited (for example [`qabasone-ui`](https://github.com/qabasone/qabasone-ui)).
 
-1. Open an issue on a **public** repository describing the problem or proposal.
-2. Wait for maintainer feedback before investing in a large PR.
-3. We are selective about outside PRs while the core platform remains private.
+1. Prefer a **Discussion** (Ideas or Q&A) for early proposals and questions.
+2. Open an issue on a **public** repository once the work is concrete enough to track.
+3. Wait for maintainer feedback before investing in a large PR.
+4. We are selective about outside PRs while the core platform remains private.
 
 ## Internal / invited collaborators
 

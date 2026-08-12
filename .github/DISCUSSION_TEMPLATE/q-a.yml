@@ -1,0 +1,42 @@
+title: "[Q&A] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask how-to and troubleshooting questions here.
+        **Bugs that need a fix** → open an Issue on the relevant public repo (or ask a maintainer for private repos).
+        **Feature requests** → use the Ideas category.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Product surface
+      options:
+        - QabasOne platform (general)
+        - Operations dashboard (dash.qabas.one)
+        - AlQabasyGo drivers (app.qabas.one)
+        - API / integrations
+        - UI package (qabasone-ui)
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to do, and where are you stuck?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you already tried
+      placeholder: Docs read, steps taken, error messages…
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (if relevant)
+      placeholder: Browser/OS, app version, approximate time of the issue…
+    validations:
+      required: false

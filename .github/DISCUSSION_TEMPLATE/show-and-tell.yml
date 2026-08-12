@@ -1,0 +1,26 @@
+title: "[Show] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share demos, screenshots, prototypes, or experiments related to QabasOne.
+        Keep secrets out — no tokens, private URLs with credentials, or customer PII.
+  - type: input
+    id: what
+    attributes:
+      label: What are you showing?
+      placeholder: New driver flow, dashboard widget, CLI helper…
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Context, how to try it, and what feedback you want.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link (optional)
+      placeholder: https://…
