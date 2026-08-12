@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: QabasOne website
+    url: https://www.qabas.one
+    about: Company site and product surfaces for Al Qabasy Trading.
+  - name: Security vulnerability
+    url: https://github.com/qabasone/.github/blob/main/SECURITY.md
+    about: Do not file public issues for security reports — see SECURITY.md.

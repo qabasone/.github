@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a defect in a public QabasOne repository
+title: "[bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. For **security** issues, follow [SECURITY.md](https://github.com/qabasone/.github/blob/main/SECURITY.md) instead of opening a public issue.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: Which public repository is affected?
+      placeholder: qabasone-ui
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Node/npm versions, browser, package version — whatever applies.
+    validations:
+      required: false
